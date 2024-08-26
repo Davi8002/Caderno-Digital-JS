@@ -13,6 +13,14 @@ let: Permite declarar a variável apenas uma vez, mas você pode modificar seu v
 
 const: Não permite redeclarar a variável nem mudar seu valor após a declaração.
 
+### Tipos de Variaveis
+
+String
+
+Number
+
+Boolean
+
 
 
 ## Atividades desenvolvidas
