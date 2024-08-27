@@ -23,7 +23,7 @@ Ex: let number = 10
 Boolean: Boolean e usado para declarar variaveis como False Ou True
 Ex: let boolean = false
 
-### Valores Logicos 
+### Operadores Logicos 
 
 **== // Compara se certos valores são iguais porem não compara os seus tipos.**
 
@@ -71,6 +71,23 @@ Ex: let teste = 10 <= 1
 
 Teste vai ser igual a false ja que 1 não e maior ou igual a 1 
 
+**- // Subtrai valores**
+
+Ex: let teste = 10 - 1 
+
+Teste vai ser igual a 9
+
+***// Mulplica valores**
+
+Ex: let teste = 5 * 5 
+
+Teste vai ser 25
+
+**/ // Divide valores**
+
+Ex: let teste = 10 / 2
+
+Teste vai ser 5 
 
 
 ## Atividades desenvolvidas
