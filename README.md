@@ -131,12 +131,11 @@ Teste vai ser 5
 ~~~
 
 
+
+### IF // ELSE // ELSE IF
+
 ## Atividades desenvolvidas
 Vídeo Sobre Variáveis https://drive.google.com/file/d/1E96mEjGoIMgXJLhCbbwK_3HNau0fomNO/view?usp=drive_link
-
-'''js
-
-'''
 
 
 
