@@ -77,7 +77,7 @@ Ex: let teste = 10 - 1
 
 Teste vai ser igual a 9
 
-***// Mulplica valores**
+*** // Mulplica valores**
 
 Ex: let teste = 5 * 5 
 
