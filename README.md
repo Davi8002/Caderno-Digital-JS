@@ -3,9 +3,8 @@ Boas vindas! Este é seu caderno virtual. Aqui você deverá guardar todos os co
 
 
 ## Conteúdo Técnico
-Escreva aqui os conteúdos aprendidos.
 
-### Variaveis
+### Declaração de Variaveis
 
 var: Permite redeclarar a variável e alterar seu valor a qualquer momento.
 
@@ -15,18 +14,71 @@ const: Não permite redeclarar a variável nem mudar seu valor após a declaraç
 
 ### Tipos de Variaveis
 
-String
+String: "String" e usado para declarar variaveis como Textos 
+Ex: let string = "caractere"
 
-Number
+Number: Number e usado para declarar variaveis como Numeros 
+Ex: let number = 10
 
-Boolean
+Boolean: Boolean e usado para declarar variaveis como False Ou True
+Ex: let boolean = false
+
+### Valores Logicos 
+
+**== // Compara se certos valores são iguais porem não compara os seus tipos.**
+
+Ex: let comparar = "1" == 1 //
+comparar = true
+
+Ex: let comparar = 1 === 1 //
+comparar = true
+
+**=== // Compara se certos valores são iguais em valor e tipo.**
+
+Ex: let comparar = "1" === 1 //
+comparar = false
+
+Ex: let comparar = 1 === 1 //
+comparar = true
+
+**+ // Soma dois valores ou mais**
+
+
+Ex:  let teste1 = "Batata" //
+
+let teste2 = "Frita"  //
+    
+let teste3 = teste1 + teste2 //
+
+teste3 vai ser igual a BatataFrita //
+
+                    
+Ex:  let teste1 = 1 //
+
+     let teste2 = 2 //
+     
+     let teste3 = teste1 + teste2 //
+     
+     teste3 vai ser igual 3 ja que ele e a soma dos outros dois valores //
+
+**> ou < // Compara 2 valores**
+
+Ex: let teste = 10 >= 1
+
+Teste vai ser igual a true ja que 10 e maior ou igual a 1
+
+Ex: let teste = 10 <= 1
+
+Teste vai ser igual a false ja que 1 não e maior ou igual a 1 
 
 
 
 ## Atividades desenvolvidas
-Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
-
 Vídeo Sobre Variáveis https://drive.google.com/file/d/1E96mEjGoIMgXJLhCbbwK_3HNau0fomNO/view?usp=drive_link
+
+'''js
+
+'''
 
 
 
