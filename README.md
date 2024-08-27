@@ -134,6 +134,28 @@ Teste vai ser 5
 
 ### IF // ELSE // ELSE IF
 
+~~~javascript
+
+// O If usa essa estrutura:
+If(Condição)
+ {Ação}
+
+// O if coloca uma condição para algo acontecer por exemplo:
+
+if(2 > 1)
+ {console.log("heh")}
+
+// Nesse comando o if usa o operador logico de maior que e percebe que 2 e maior que 1 e por isso executa o comando 
+~~~
+
+~~~javascript
+// O Else serve para executar algo caso a condição do if não seja atendida
+
+if(1 > 2)
+ {console.log("heh")} else{console.log("hehehehe")}
+
+~~~
+
 ## Atividades desenvolvidas
 Vídeo Sobre Variáveis https://drive.google.com/file/d/1E96mEjGoIMgXJLhCbbwK_3HNau0fomNO/view?usp=drive_link
 
