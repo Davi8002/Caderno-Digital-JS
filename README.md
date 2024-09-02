@@ -127,7 +127,7 @@ let teste = 5 * 5
 ~~~javascript     
 let teste = 10 / 2
 
-Teste vai ser 5 
+//Teste vai ser 5 
 ~~~
 
 
@@ -155,6 +155,17 @@ if(1 > 2)
  {console.log("heh")} else{console.log("hehehehe")}
 
 ~~~
+
+~~~javascript
+// O Else If serve para executar algo caso a condição do if não seja atendida e a nova condição do Else seja atendida 
+
+if(1 > 2)
+ {console.log("heh")} else if(1 == 1){console.log("hehehehe")}
+
+~~~
+
+### Switch Case
+
 
 ## Atividades desenvolvidas
 Vídeo Sobre Variáveis https://drive.google.com/file/d/1E96mEjGoIMgXJLhCbbwK_3HNau0fomNO/view?usp=drive_link
