@@ -165,7 +165,29 @@ if(1 > 2)
 ~~~
 
 ### Switch Case
+~~~javascript
+// O Switch Case e um jeito mais otimizado de  escrever um código que precise de muitos else If
 
+let fruta = prompt("Qual Fruta Você Deseja?")
+
+
+switch(fruta) {
+   case "Maçã":
+     console.log("Não Temos essa fruta");
+       break;
+   case "Banana":
+     console.log("O cacho custa 10R$")
+       break;
+   case "Kiwi":
+     console.log("Não Temos essa Fruta")
+       break;
+     default:
+}
+
+
+
+
+~~~
 
 ## Atividades desenvolvidas
 Vídeo Sobre Variáveis https://drive.google.com/file/d/1E96mEjGoIMgXJLhCbbwK_3HNau0fomNO/view?usp=drive_link
