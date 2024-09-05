@@ -1,4 +1,4 @@
-# Caderno virtual - Lógica da Programação e Algoritmos
+https://codepen.io/collection/ZMdeBV Caderno virtual - Lógica da Programação e Algoritmos
 Boas vindas! Este é seu caderno virtual. Aqui você deverá guardar todos os conceitos aprendidos e atiuvidades dessa unidade curricular. 
 
 
@@ -194,6 +194,8 @@ switch(fruta) {
 
 Vídeo Sobre Variáveis https://drive.google.com/file/d/1E96mEjGoIMgXJLhCbbwK_3HNau0fomNO/view?usp=drive_link
 
+Atividades no Codepen
+https://codepen.io/collection/ZMdeBV
 
 
 
