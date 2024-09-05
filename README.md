@@ -56,7 +56,7 @@ let comparar = "1" === 1
 // Comparar vai ter o valor boolean de false
 
 
-Ex: let comparar = 1 === 1 //
+let comparar = 1 === 1 //
 // Comparar vai ter o valor boolean de true
 ~~~
 
@@ -75,11 +75,11 @@ let teste3 = teste1 + teste2
 
 
 ~~~javascript                    
-let teste1 = 1 //
+let teste1 = 1 
 
-let teste2 = 2 //
+let teste2 = 2 
      
-let teste3 = teste1 + teste2 //
+let teste3 = teste1 + teste2 
      
 // teste3 vai ser igual 3 ja que ele e a soma dos outros dois valores 
 ~~~
@@ -95,9 +95,9 @@ let teste = 10 >= 1
 
 
 
-Ex: let teste = 10 <= 1
+let teste = 10 <= 1
 
-// Teste vai ser igual a false ja que 1 não e maior ou igual a 1 
+// Teste vai ser igual a false ja que 1 não e maior ou igual a 10
 ~~~
 
 
@@ -157,10 +157,11 @@ if(1 > 2)
 ~~~
 
 ~~~javascript
-// O Else If serve para executar algo caso a condição do if não seja atendida e a nova condição do Else seja atendida 
+// O Else If serve para executar algo caso a condição do if não seja atendida e a nova condição do Else if seja atendida 
 
 if(1 > 2)
- {console.log("heh")} else if(1 == 1){console.log("hehehehe")}
+ {console.log("heh")
+} else if(1 == 1){console.log("hehehehe")}
 
 ~~~
 
@@ -179,7 +180,7 @@ switch(fruta) {
      console.log("O cacho custa 10R$")
        break;
    case "Kiwi":
-     console.log("Não Temos essa Fruta")
+     console.log("Custa 14R$ o Kg")
        break;
      default:
 }
@@ -190,6 +191,7 @@ switch(fruta) {
 ~~~
 
 ## Atividades desenvolvidas
+
 Vídeo Sobre Variáveis https://drive.google.com/file/d/1E96mEjGoIMgXJLhCbbwK_3HNau0fomNO/view?usp=drive_link
 
 
