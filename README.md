@@ -111,7 +111,7 @@ let teste = 10 - 1
 ~~~
 
 
-**, * // Mulplica valores**
+** .*. // Mulplica valores**
 
 
 ~~~javascript     
