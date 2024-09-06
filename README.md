@@ -249,8 +249,26 @@ alert(`Hello World ${nome}`);
 ### Array
 
 ~~~javascript
-//Array
+//Array são variaveis que armazenam varios valores por exemplo:
+const hqs = ["Superman", "Batman", "Flash", "Thor"];
 
+//Elas são declaradas da seguinte forma
+//var/Ou/let/Ou/const nomeDaVariavel = ["valor 1", "valor", "valor3"]
+
+~~~
+
+~~~javascript
+// o comando nomeDaArray.includes(valorTestado) serve para verificar
+// se um um valor especifico esta incluido em uma array
+
+const hqs = ["Superman", "Batman", "Flash", "Thor"];
+
+alert(hqs.includes("Flash"))
+
+//Nesse caso o alert vai mostrar um valor true ja que flash esta na array hqs
+~~~
+
+~~~javascript
 
 ~~~
 
