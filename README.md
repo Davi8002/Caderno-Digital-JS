@@ -70,7 +70,8 @@ let teste2 = "Frita"
     
 let teste3 = teste1 + teste2 
 
-// teste3 vai ser igual a BatataFrita 
+// teste3 vai ser igual a BatataFrita
+
 ~~~
 
 
@@ -183,7 +184,7 @@ parseInt(numero1)
 
 let calculo1 = numero1 + numero2
 
-//Agora calculo 1 vai ser igual a 2
+//Agora calculo 1 vai ser igual a 2 ja que numero1 virou um number
 
 
 ~~~
@@ -191,6 +192,7 @@ let calculo1 = numero1 + numero2
 
 
 ### Switch Case
+
 ~~~javascript
 // O Switch Case e um jeito mais otimizado de  escrever um código que precise de muitos else If
 
@@ -211,12 +213,44 @@ switch(fruta) {
 }
 
 //Nesse caso ele vai analisar qual fruta o usuário colocou no prompt e mandar uma mensagem dependendo de qual fruta ele colocou 
+~~~
 
+### Console.log e Alert
 
+~~~javascript
+//O console.log imprime uma mensagem no console e alert mostra uma mensagem em um bloco na tela mas basicamente funcionam da mesma forma
 
+let teste = "Hello World"
+
+console.log(teste)
+alert(teste)
+
+//O console e o alert vão mostrar Hello World
+~~~
+
+~~~javascript
+
+let nome = "Davi";
+
+console.log(teste + " " + nome)
+alert(teste + " " + nome)
+
+console.log(`Hello World ${nome}`);
+alert(`Hello World ${nome}`);
+
+//Nesses 4 casos vai ser mostrado Hello World Davi
+
+//(`texto ${variavel}`); esse comando e usado para facilitar imprimir variaveis e textos juntos.
+~~~
+
+### Array
+
+~~~javascript
+//Array
 
 
 ~~~
+
 
 ## Atividades desenvolvidas
 
