@@ -218,7 +218,8 @@ switch(fruta) {
 ### Console.log e Alert
 
 ~~~javascript
-//O console.log imprime uma mensagem no console e alert mostra uma mensagem em um bloco na tela mas basicamente funcionam da mesma forma
+//O console.log imprime uma mensagem no console e alert mostra uma mensagem em um bloco na tela mas basicamente funciona
+//da mesma forma que o console.log
 
 let teste = "Hello World"
 
