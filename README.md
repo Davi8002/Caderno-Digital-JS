@@ -231,7 +231,9 @@ alert(teste)
 
 ~~~javascript
 
-let nome = "Davi";
+let nome = prompt("Qual e seu nome?")
+
+//Prompt mostra na tela um bloco para o usuario colocar um texto
 
 console.log(teste + " " + nome)
 alert(teste + " " + nome)
@@ -239,7 +241,7 @@ alert(teste + " " + nome)
 console.log(`Hello World ${nome}`);
 alert(`Hello World ${nome}`);
 
-//Nesses 4 casos vai ser mostrado Hello World Davi
+//Nesses 4 casos vai ser mostrado Hello World nome respondido
 
 //(`texto ${variavel}`); esse comando e usado para facilitar imprimir variaveis e textos juntos.
 ~~~
