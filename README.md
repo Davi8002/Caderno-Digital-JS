@@ -165,6 +165,31 @@ if(1 > 2)
 
 ~~~
 
+~~~javascript
+// Para transformar valores em numeros pode-se usar o parseInt()
+
+let numero1 = "1";
+let numero2 = 1;
+
+let calculo1 = numero1 + numero2
+
+//Nesse caso o calculo1 vai ser igual a 11 porquê quando tem um calculo entre strings e numbers, os numbers se
+//transformam em string então para evitar isso e nescessário que os dois valores sejam numbers e para isso ou
+//você pode mudar o valor da variavel quando ela foi declarada ou usar parseInt() para transformar ela em number.
+
+let numero1 = "1";
+let numero2 = 1;
+parseInt(numero1)
+
+let calculo1 = numero1 + numero2
+
+//Agora calculo 1 vai ser igual a 2
+
+
+~~~
+
+
+
 ### Switch Case
 ~~~javascript
 // O Switch Case e um jeito mais otimizado de  escrever um código que precise de muitos else If
