@@ -183,9 +183,10 @@ switch(fruta) {
      console.log("Custa 14R$ o Kg")
        break;
      default:
+}
 
 //Nesse caso ele vai analisar qual fruta o usuário colocou no prompt e mandar uma mensagem dependendo de qual fruta ele colocou 
-}
+
 
 
 
