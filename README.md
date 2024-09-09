@@ -259,7 +259,7 @@ const hqs = ["Superman", "Batman", "Flash", "Thor"];
 
 ~~~javascript
 // o comando nomeDaArray.includes(valorTestado) serve para verificar
-// se um um valor especifico esta incluido em uma array
+// se um um valor especifico está incluido em uma array
 
 const hqs = ["Superman", "Batman", "Flash", "Thor"];
 
