@@ -257,21 +257,113 @@ const hqs = ["Superman", "Batman", "Flash", "Thor"];
 
 ~~~
 
+
 ~~~javascript
 // o comando nomeDaArray.includes(valorTestado) serve para verificar
 // se um um valor especifico está incluido em uma array
 
 const hqs = ["Superman", "Batman", "Flash", "Thor"];
-
+//INDEX          0          1         2        3
 alert(hqs.includes("Flash"))
 
 //Nesse caso o alert vai mostrar um valor true ja que flash esta na array hqs
 ~~~
 
-~~~javascript
 
+~~~javascript
+const hqs = ["Superman", "Batman", "Flash", "Thor"];
+alert(hqs.indexOf("Flash");
+//Vai alertar o valor de 2 ja que seria o index de "flash"
 ~~~
 
+
+~~~javascript
+const hqs = ["Superman", "Batman", "Flash", "Thor"];
+console.log(hqs.pop());
+//Vai remover o valor "Thor" da array hqs ja que ele e o ultimo valor da array
+//também é possivel especificar o valor a ser removido o colocando no pop("valor")
+console.log(hqs.push("Hehe"));
+//Vai adicionar o valor "Hehe" na array Hq
+~~~
+
+
+~~~javascript
+const hqs = ["Superman", "Batman", "Flash", "Thor"];
+console.log(hqs.sort())
+//Vai colocar em ordem alfabetica a array hqs
+console.log(hqs.length)
+//Vai contar os valores das hqs e mostrar no console.
+~~~
+
+~~~javascript
+const hqs = ["Superman", "Batman"];
+const hqs2 = ["Flash", "Thor"];
+const hqs3 = hqs.concat(hqs2)
+//o valor de hqs3 vai ser a junção de hqs1 e hqs2 ja que o comando concat soma 2 arrays
+~~~
+
+### Função
+
+~~~javascript
+//Para se declarar uma função e usado o seguinte comando
+function nomeDaFuncao(valoresUsados) {
+  return valores_a_serem_retornados
+}
+//Por exemplo para fazer um função de soma são usados os seguintes comandos
+const num1 = parseFloat(prompt("Digite o Numero 1"));
+const num2 = parseFloat(prompt("Digite o Numero 2"));
+
+function soma(num1, num2) {
+  return num1 + num2;
+}
+
+console.log(soma(num1, num2));
+//Nesse caso primeiro o usuario diria o 1 e 2 valor e depois a função vai somar os dois e mostrar o valor no console
+~~~
+
+~~~javascript
+//Tambem e possivel criar uma calculadora simples que funciona com 2 numeros usando funções
+const num1 = parseFloat(prompt("Digite o Numero 1"));
+const calculo = prompt("Digite o Operador");
+const num2 = parseFloat(prompt("Digite o Numero 2"));
+
+function soma(num1, num2) {
+  return num1 + num2;
+}
+
+function subtr(num1, num2) {
+  return num1 - num2;
+}
+
+function multi(num1, num2) {
+  return num1 * num2;
+}
+
+function divi(num1, num2) {
+  return num1 / num2;
+}
+
+if (calculo == "+") {
+  console.log(soma(num1, num2));
+} else if (calculo == "-") {
+  console.log(subtr(num1, num2));
+} else if (calculo == "*") {
+  console.log(multi(num1, num2));
+} else if (calculo == "/") {
+  console.log(divi(num1, num2));
+}
+//Nesse codigo ele analisa os valores ditos pelo usuario e dependendo muda o operador logico 
+~~~
+
+~~~javascript
+//Essa função vai inverter uma pavra dividindo ela depois a revertendo e depois a juntando novamente.
+let str = prompt("Qual palavra você quer inverter");
+
+function inverterString(str) {
+  return str.split("").reverse().join("");
+}
+console.log(inverterString(str));
+~~~
 
 ## Atividades desenvolvidas
 
