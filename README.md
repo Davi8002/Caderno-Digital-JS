@@ -366,7 +366,7 @@ function inverterString(str) {
 console.log(inverterString(str));
 ~~~
 
-## Atividades desenvolvidas
+## Atividades Desenvolvidas 
 
 Vídeo Sobre Variáveis https://drive.google.com/file/d/1E96mEjGoIMgXJLhCbbwK_3HNau0fomNO/view?usp=drive_link
 
